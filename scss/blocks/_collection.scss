@@ -1,0 +1,89 @@
+.collection{
+    background-image: url(../../images/collection.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 126px;
+    padding-bottom: 118px;
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__img{
+        margin-bottom: 71px;
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+        font-family: 'Fraunces 9pt';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        max-width: 255px;
+
+    }
+    @media only screen and (max-width: 768px) {
+        .collection{
+            padding: 59px;
+            &__list{
+                display: block;
+                flex-direction: column;
+            }
+            &__item{
+                display: flex;
+
+            }
+            &__img{
+                margin: 0 auto;
+                display: inline-block;
+                margin-bottom: 48px;
+            }
+            &__box{
+                margin: 0;
+                padding: 0;
+            }
+
+            &__title{
+                text-align: left;
+            }
+            &__desc{
+                max-width: 282px;
+                text-align: left;
+                margin: 0 auto;
+            }
+        }
+    }
+    @media only screen and ( max-width: 450px) {
+        .collection{
+            padding-top: 53px;
+            &__item{
+                flex-direction: column;
+                text-align: center;
+            }
+            &__img{
+                margin-bottom: 24px;
+            }
+            &__title{
+                text-align: center;
+                margin-bottom: 16px;
+            }
+            &__desc{
+                text-align: center;
+            }
+        }
+    }
+}

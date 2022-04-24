@@ -1,0 +1,188 @@
+.settings{
+    padding: 200px 20px;
+    &__title{
+        margin-bottom: 80px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+
+    }
+    &__list{
+        margin: 0;
+        padding: 0;
+        margin-top: 67px;
+        margin-bottom: 64px;
+        list-style: none;
+        display: flex;
+    }
+    &__item-heading{
+        margin: 0;
+        padding: 0;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &__item{
+        margin: 0;
+        padding: 0;
+    }
+    &__item + &__item {
+        margin-left: 95px;
+    }
+    &__item-title{
+        max-width: 255px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    &__item-desc{
+        margin: 0;
+        padding: 0;
+        line-height: 26px;
+        color: #333D4B;
+        max-width: 285px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .settings{
+        margin-top: 134px;
+        padding: 200px 20px;
+        &__title{
+            margin-bottom: 80px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+
+        }
+        &__img{
+            width: 497px;
+            height: 31px;
+        }
+        &__list{
+            margin: 0;
+            padding: 0;
+            margin-top: 67px;
+            margin-bottom: 64px;
+            list-style: none;
+            display: flex;
+        }
+        &__item-heading{
+            margin: 0;
+            padding: 0;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+        }
+        &__item{
+            margin: 0;
+            padding: 0;
+        }
+        &__item + &__item {
+            margin-left: 10px;
+        }
+        &__item-title{
+            max-width: 255px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        &__item-desc{
+            margin: 0;
+            padding: 0;
+            line-height: 26px;
+            color: #333D4B;
+            max-width: 210px;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .settings{
+        margin-top: 417px;
+        padding: 200px 20px;
+        &__title{
+            margin-bottom: 80px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            text-align: center;
+
+        }
+        &__img{
+            display: none;
+        }
+        &__list{
+            margin: 0;
+            padding: 0;
+            margin-top: 67px;
+            margin-bottom: 64px;
+            list-style: none;
+            flex-direction: column;
+        }
+        &__item-heading{
+            margin: 0 auto;
+            padding: 0;
+            margin-bottom: 24px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+            text-align: center;
+        }
+        &__item{
+            margin: 0;
+            padding: 0;
+        }
+        &__item + &__item {
+            margin-top: 56px;
+        }
+        &__item-title{
+            margin: 0 auto;
+            max-width: 255px;
+            margin-bottom: 24px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+            text-align: center;
+        }
+        &__item-desc{
+            margin: 0 auto;
+            padding: 0;
+            line-height: 26px;
+            color: #333D4B;
+            max-width: 210px;
+            text-align: center;
+            max-width: 327px;
+        }
+        &__button{
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+}

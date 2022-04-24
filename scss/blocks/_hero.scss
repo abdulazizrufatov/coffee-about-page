@@ -1,0 +1,91 @@
+.hero{
+    margin-bottom: 136px;
+
+    &__left{
+        padding: 117px 0px 117px 85px;
+        background-image: url(../../images/Bitmap.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        max-width: 493px;
+        margin-bottom: 32px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 56px;
+        max-width: 445px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    @media only screen and (max-width:768px) {
+        .hero{
+
+            &__left{
+                padding: 104px 20px 104px 58px;
+                background-image: url(../../images/mobilebitmap.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &__header{
+                margin-bottom: 24px;
+                max-width: 329px;
+                font-family: 'Fraunces 9pt';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                color: #FEFCF7;
+            }
+            &__desc{
+                max-width: 398px;
+                margin-bottom: 40px;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FEFCF7;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+        }
+    }
+    @media only screen and (max-width: 450px){
+        .hero{
+            &__left{
+                text-align: center;
+                padding: 100px 24px;
+                background-image: url(../../images/bitmap.1..jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &__heading{
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 40px;
+                text-align: center;
+                color: #FEFCF7;
+            }
+            &__desc{
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #FEFCF7;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+
+        }
+    }
+}
