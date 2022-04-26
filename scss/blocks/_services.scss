@@ -3,6 +3,7 @@
     border-radius: 10px;
     padding: 100px 85px 317px;
     position: relative;
+    margin-bottom: 168px;
     &__heading{
         margin: 0;
         padding: 0;
@@ -148,6 +149,176 @@
             max-width: 212px;
             text-align: center;
 
+        }
+    }
+}
+// ABOUT SERVICES
+.about-services{
+    position: relative;
+    background: #2C343E;
+    padding: 88px 85px 176px 85px;
+    border-radius: 10px;
+    display: flex;
+    &__heading{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 32px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        max-width: 540px;
+    }
+    &__img{
+        position: absolute;
+        right: 85px;
+        bottom: 88px;
+    }
+}
+@media only screen and ( max-width: 1120px){
+    .about-services{
+        position: relative;
+        background: #2C343E;
+        padding: 242px 100px 67px 100px;
+        border-radius: 10px;
+        &__box{
+            margin: 0 auto;
+            padding: 0;
+
+        }
+
+        &__heading{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+
+        }
+        &__desc{
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            max-width: 540px;
+
+        }
+        &__img{
+            position: absolute;
+            width: 573px;
+            height: 320px;
+            left: 197px;
+            bottom: 328px;
+        }
+    }
+}
+@media only screen and ( max-width: 770px) {
+    .about-services{
+        position: relative;
+        background: #2C343E;
+        padding: 242px 74px 67px 74px;
+        border-radius: 10px;
+        &__box{
+            margin: 0 auto;
+            padding: 0;
+
+        }
+
+        &__heading{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+
+        }
+        &__desc{
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            max-width: 540px;
+
+        }
+        &__img{
+            position: absolute;
+            width: 573px;
+            height: 320px;
+            left: 97px;
+            bottom: 328px;
+        }
+    }
+}
+@media only screen and ( max-width: 450px) {
+    .about-services{
+        position: relative;
+        background: #2C343E;
+        padding: 142px 0px 64px 0px;
+        border-radius: 10px;
+        &__box{
+            max-width: 279px;
+        }
+
+        &__heading{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+        &__desc{
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+
+
+        }
+        &__img{
+            position: absolute;
+            width: 279px;
+            height: 156px;
+            left: 73px;
+            bottom: 431px;
         }
     }
 }

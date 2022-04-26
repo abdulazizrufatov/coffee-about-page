@@ -186,3 +186,151 @@
         }
     }
 }
+// ABOUT PAGE
+.about-settings{
+    padding-top: 168px;
+    padding-bottom: 168px;
+    padding-left: 85px;
+    &__heading{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 72px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+
+    }
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+    }
+    &__item{
+        margin: 0;
+        padding: 0;
+
+    }
+    &__item + &__item{
+        margin-left: 95px;
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        margin-top: 45px;
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+
+    }
+    &__adress{
+        line-height: 26px;
+        color: #333D4B;
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-settings{
+        padding: 144px 20px;
+        &__heading{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 72px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+
+        }
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+        }
+        &__item{
+            margin: 0;
+            padding: 0;
+
+        }
+        &__item + &__item{
+            margin-left: 9px;
+        }
+        &__title{
+            margin: 0;
+            padding: 0;
+            margin-top: 45px;
+            margin-bottom: 24px;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+
+        }
+        &__adress{
+            line-height: 26px;
+            color: #333D4B;
+
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .about-settings{
+        padding: 144px 20px;
+        &__heading{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 72px;
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            text-align: center;
+
+        }
+        &__list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            flex-direction: column;
+            text-align: center;
+
+        }
+        &__item{
+            margin: 0;
+            padding: 0;
+
+        }
+        &__item + &__item{
+            margin-top: 80px;
+        }
+        &__title{
+            margin: 0;
+            padding: 0;
+            margin-top: 45px;
+            margin-bottom: 24px;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+            text-align: center;
+
+        }
+        &__adress{
+            line-height: 26px;
+            color: #333D4B;
+            text-align: center;
+
+        }
+    }
+}
