@@ -529,7 +529,7 @@ img {
 
 .hero__left {
   padding: 117px 0px 117px 85px;
-  background-image: url(../../images/Bitmap.jpg);
+  background-image: url(../../images/Bitmap.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -561,7 +561,7 @@ img {
 @media only screen and (max-width: 768px) {
   .hero .hero__left {
     padding: 104px 20px 104px 58px;
-    background-image: url(../../images/mobilebitmap.jpg);
+    background-image: url(../../images/tablet-bitmap.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -590,7 +590,7 @@ img {
   .hero .hero__left {
     text-align: center;
     padding: 100px 24px;
-    background-image: url(../../images/bitmap.1..jpg);
+    background-image: url(../../images/mobile-bitmap.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -650,7 +650,7 @@ img {
 @media only screen and (max-width: 770px) {
   .about-hero {
     padding: 118px 58px;
-    background-image: url(../../images/tablet-about-hero.jpg);
+    background-image: url(../../images/tablet-about-hero.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -675,7 +675,7 @@ img {
 @media only screen and (max-width: 450px) {
   .about-hero {
     padding: 111px 24px 87px 24px;
-    background-image: url(../../images/mobile-about-hero.jpg);
+    background-image: url(../../images/mobile-about-hero.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1314,6 +1314,9 @@ img {
     background: #2C343E;
     padding: 142px 0px 64px 0px;
     border-radius: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .about-services__box {
     max-width: 279px;
@@ -1343,6 +1346,13 @@ img {
   }
   .about-services__img {
     position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 279px;
     height: 156px;
     left: 73px;

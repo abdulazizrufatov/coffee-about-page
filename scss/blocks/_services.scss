@@ -284,6 +284,7 @@
         background: #2C343E;
         padding: 142px 0px 64px 0px;
         border-radius: 10px;
+        justify-content: center;
         &__box{
             max-width: 279px;
         }
@@ -315,6 +316,9 @@
         }
         &__img{
             position: absolute;
+            justify-content: center;
+            margin: 0 auto;
+            align-items: center;
             width: 279px;
             height: 156px;
             left: 73px;
